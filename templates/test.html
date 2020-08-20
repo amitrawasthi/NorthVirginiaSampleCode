@@ -49,10 +49,13 @@
     </script>
     </h2>
 
-    <script type="text/javascript">
-        var ip = location.host;
-        alert(ip);
+    <script type="application/javascript">
+        function getip(json){
+          alert(json.ip); // alerts the ip address
+        }
     </script>
+    
+    <script type="application/javascript" src="http://www.telize.com/jsonip?callback=getip"></script>
 
     &nbsp;
     <BR>
