@@ -49,15 +49,11 @@
     </script>
     </h2>
 
-    <p id="demo"></p>
-
-    <script>
-    function myFunction() {
-      var x = location.hostname;
-      document.getElementById("demo").innerHTML= x;
-    }
-    </script>    
-
+    <script type="text/javascript">
+        var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
+        alert(ip);
+    </script>
+    
     &nbsp;
     <BR>
     <BR>
